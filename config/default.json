@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://kgajurel:kgajurel4@cluster0.rnaas.mongodb.net/disease_predictor?retryWrites=true&w=majority",
+  "secretOrKey": "theMostPowerfulSecretMessage3VeR"
+}

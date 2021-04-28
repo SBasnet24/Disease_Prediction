@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.main__nav{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color:gray;
+  margin-top:30px;
+  text-transform: uppercase;
+}
+.main__section{
+  margin-top:40px;
+}
+.main__input{
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+.input__type__inner{
+  border-left: none;
+  padding: 10px;
+}
+.input__type__inner_login{
+  padding: 10px;
+}
+.input__type__inner:focus ,.input__type__inner_login:focus{
+  border:transparent;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+.btn__main{
+  height: 41px;
+  margin-top: 7px;
+}
+.m-l70{
+  margin-left:70px;
+}
+.login__a{
+  text-decoration: none;
+  color:gray;
+}
+.login__a:hover , .main__nav:hover{
+  color:#2b5ba2;
+}
+.label_position {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  pointer-events: none;
+  padding-left: 0.125rem;
+  z-index: 5;
+  font-size: 14px;
+  font-weight: normal;
+  -webkit-transition: all 0.28s ease;
+  transition: all 0.28s ease;
+  padding: 0 5px;
+  background-color: white;
+  color:gray;
+}
+.form-control:hover~.label_position {
+  color: #2b5ba2!important;
+}
+
+.form-control:focus~.label_position,
+.form-control:valid~.label_position,
+.form-control[readonly]~.label_position {
+  font-size: 14px;
+  top: -20% !important;
+  transform: translateY(0);
+  margin: 0;
+  padding: 0 5px;
+  background-color: white;
+}
+
+.form-control:focus~.label_position_order,
+.form-control:valid~.label_position_order,
+.form-control[readonly]~.label_position_order {
+  left: 20%
+}
+.input__group {
+  position: relative;
+}
+.btn__login{
+  width: 20%;
+}
+.according__class__p{
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.card{
+  border: none;
+}
+.card__header{
+  background-color: transparent;
+}
+.error__p__landing{
+  display: flex;
+  justify-content: center;
+  color: red;
+  text-transform: uppercase;
+}
